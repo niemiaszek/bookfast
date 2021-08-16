@@ -1,0 +1,19 @@
+.Remove {
+  width: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.Cart-Item {
+  display: flex;
+  flex-direction: row;
+  width: 38vw;
+  justify-content: center;
+}
+#Item-Content {
+  width: 30vw;
+}
+#Amount {
+  margin: auto;
+  margin-left: 1px;
+  margin-right: 1px;
+}

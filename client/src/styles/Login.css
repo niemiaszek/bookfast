@@ -1,0 +1,48 @@
+.Login-Container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 88vh;
+}
+
+.Login-Container input,
+button {
+  width: 230px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  margin: 10px;
+}
+.Login-Container input {
+  width: auto;
+}
+.Login-Box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  height: auto;
+  padding: 20px;
+  border: 5px solid dodgerblue;
+  border-radius: 5px;
+}
+.Buttons {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+.Buttons button {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.Login-Container input {
+  border: 2px solid dodgerblue;
+}
+button:hover {
+  cursor: pointer;
+  background-color: lightskyblue;
+}

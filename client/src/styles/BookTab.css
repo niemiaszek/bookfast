@@ -1,0 +1,25 @@
+.Column {
+  flex-direction: column;
+  height: 10vh;
+  width: 15vw;
+  align-content: flex-start;
+}
+.Info {
+  flex-direction: column;
+  height: 5vh;
+  justify-self: flex-start;
+}
+.Info h1,
+h3,
+h4 {
+  margin: 0;
+}
+.Info h1 {
+  color: dodgerblue;
+}
+button#Publication {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  height: 10vh;
+}

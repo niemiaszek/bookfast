@@ -1,0 +1,25 @@
+.Profile-Page {
+  width: 100vw;
+  height: 86vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Profile-Page .Profile-Content {
+  padding: 20px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid dodgerblue;
+  border-radius: 5px;
+}
+.Profile-Content button {
+  background-color: dodgerblue;
+  color: white;
+}
+.Profile-Content button:hover {
+  cursor: pointer;
+  background-color: lightskyblue;
+}

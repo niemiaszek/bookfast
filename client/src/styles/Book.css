@@ -1,0 +1,59 @@
+.Book-Page {
+  width: 100vw;
+  height: 86vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.Main-Info {
+  display: flex;
+  flex-direction: row;
+  height: 30vh;
+  padding-top: 2vh;
+}
+.Main-Info .Column {
+  width: 15vw;
+}
+
+.Main-Info .Column .Info {
+  height: 10vh;
+}
+.Main-Info h1,
+h2,
+h3 {
+  margin: 0;
+}
+.Column h1 {
+  color: dodgerblue;
+}
+.Description {
+  border: 2px solid dodgerblue;
+  height: 15vh;
+  width: 45vw;
+  justify-items: center;
+}
+.Description .Scrollable {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  padding: 2vh;
+  overflow-y: auto;
+  height: 8vh;
+}
+.Table-Info {
+  height: 10vh;
+}
+.Table-Info table {
+  width: 45vw;
+  height: 8vh;
+}
+.Table-Info table,
+th,
+tr {
+  border: 1px solid dodgerblue;
+}
+.Table-Info tr,
+th {
+  height: 3vh;
+  width: 8vw;
+}

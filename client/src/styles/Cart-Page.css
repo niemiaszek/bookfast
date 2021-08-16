@@ -1,0 +1,31 @@
+.Cart-Page {
+  width: 100vw;
+  height: 86vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Cart-Page .Cart-Content {
+  padding: 20px;
+  width: 45vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid dodgerblue;
+  border-radius: 5px;
+}
+.Cart-Content .Cart-Container {
+  overflow-y: auto;
+  height: 50vh;
+  width: 40vw;
+  border: 2px solid dodgerblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Cart-Content .Cart-Info {
+  margin-top: 2vh;
+  height: 4vh;
+}
